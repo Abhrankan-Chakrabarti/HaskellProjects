@@ -1,0 +1,20 @@
+# GHC compiled files
+*.hi
+*.o
+# Executables
+ackermann
+catalan
+exp
+fib
+fibgmp
+fibonacci
+golden_ratio
+n_queen
+pi
+primes
+sqrt
+tachyonic_benchmark
+tachyonic_void
+tower_of_hanoi
+# OS files
+.DS_Store
