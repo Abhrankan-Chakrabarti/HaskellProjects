@@ -1,20 +1,22 @@
 # GHC compiled files
 *.hi
 *.o
-# Executables
-ackermann
-catalan
-exp
-fib
-fibgmp
-fibonacci
-golden_ratio
-n_queen
-pi
-primes
-sqrt
-tachyonic_benchmark
-tachyonic_void
-tower_of_hanoi
+
+# Executables inside project directories
+ackermann/ackermann
+catalan/catalan
+exp/exp
+fib/fib
+fibgmp/fibgmp
+fibonacci/fibonacci
+golden_ratio/golden_ratio
+n_queen/n_queen
+pi/pi
+primes/primes
+sqrt/sqrt
+tachyonic_benchmark/tachyonic_benchmark
+tachyonic_void/tachyonic_void
+tower_of_hanoi/tower_of_hanoi
+
 # OS files
 .DS_Store
