@@ -28,16 +28,20 @@ You can build and run any project like this:
 ```bash
 cd <project-name>
 ghc <project-name>.hs -o <project-name>
-./<project-name>
+./<project-name>  # Linux/macOS
+.\<project-name>.exe  # Windows
 ```
 
-Example (Ackermann function):
+### Command-line Arguments
+
+Some programs require command-line arguments. Example for Ackermann:
 
 ```bash
-cd ackermann
-ghc ackermann.hs -o ackermann
-./ackermann
+./ackermann 3 4       # Linux/macOS
+.\ackermann.exe 3 4   # Windows
 ```
+
+See the README of each project for specific argument requirements.
 
 ## 📜 License
 
