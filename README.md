@@ -8,7 +8,7 @@ Each project is self-contained with its own source file(s).
 * **ackermann** — Ackermann function implementation
 * **catalan** — Catalan numbers generator
 * **exp** — Exponential function computation
-* **fib** — Simple Fibonacci numbers
+* **fib** — Fibonacci & Lucas numbers
 * **fibgmp** — Arbitrary-precision Fibonacci using GMP
 * **fibonacci** — Alternative Fibonacci implementation
 * **golden_ratio** — High-precision golden ratio calculation
