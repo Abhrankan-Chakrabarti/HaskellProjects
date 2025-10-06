@@ -28,8 +28,8 @@ This implementation:
 Compile and run using:
 
 ```bash
-ghc -O2 pi_chud.hs -o pi_chud
-./pi_chud 1000
+ghc -O2 pi.hs -o pi
+./pi 1000
 ```
 
 This will output π to **1000 digits**.

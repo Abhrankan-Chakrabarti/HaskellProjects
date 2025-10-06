@@ -5,17 +5,17 @@ Each project is self-contained with its own source file(s).
 
 ## 📂 Included Projects
 
-* **ackermann** — Ackermann function implementation
-* **catalan** — Catalan numbers generator
-* **exp** — Exponential function computation
-* **fib** — Fibonacci & Lucas numbers
-* **fibgmp** — Arbitrary-precision Fibonacci using GMP
-* **fibonacci** — Alternative Fibonacci implementation
-* **golden_ratio** — High-precision golden ratio calculation
-* **n_queen** — N-Queens solver
-* **pi** — High-precision π calculation (GMP)
-* **primes** — Prime number generator
-* **sqrt** — High-precision square root calculation
+* **[ackermann](ackermann)** — Ackermann function implementation
+* **[catalan](catalan)** — Catalan numbers generator
+* **[exp](exp)** — Exponential function computation
+* **[fib](fib)** — Fibonacci & Lucas numbers
+* **[fibgmp](fibgmp)** — Arbitrary-precision Fibonacci using GMP
+* **[fibonacci](fibonacci)** — Alternative Fibonacci implementation
+* **[golden_ratio](golden_ratio)** — High-precision golden ratio calculation
+* **[n_queen](n_queen)** — N-Queens solver
+* **[pi](pi)** — High-precision π calculation (GMP)
+* **[primes](primes)** — Prime number generator
+* **[sqrt](sqrt)** — High-precision square root calculation
 * **tower_of_hanoi** — Tower of Hanoi solver
 * **tachyonic_benchmark** — Performance benchmarking
 * **tachyonic_void** — Experimental performance test
