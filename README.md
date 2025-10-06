@@ -17,7 +17,7 @@ Each project is self-contained with its own source file(s).
 * **[primes](primes)** — Prime number generator
 * **[sqrt](sqrt)** — High-precision square root calculation
 * **tower_of_hanoi** — Tower of Hanoi solver
-* **tachyonic_benchmark** — Performance benchmarking
+* **[tachyonic_benchmark](tachyonic_benchmark)** — Performance benchmarking
 * **tachyonic_void** — Experimental performance test
 
 ## 🛠 Build & Run
