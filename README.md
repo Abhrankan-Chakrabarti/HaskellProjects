@@ -14,7 +14,7 @@ Each project is self-contained with its own source file(s).
 * **golden_ratio** — High-precision golden ratio calculation
 * **n_queen** — N-Queens solver
 * **pi** — High-precision π calculation (GMP)
-* **primes** — Prime number utilities
+* **primes** — Prime number generator
 * **sqrt** — High-precision square root calculation
 * **tower_of_hanoi** — Tower of Hanoi solver
 * **tachyonic_benchmark** — Performance benchmarking

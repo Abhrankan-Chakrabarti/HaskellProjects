@@ -15,9 +15,7 @@ It leverages **GMP (GNU Multiple Precision Arithmetic Library)** for high-precis
 #### 🧩 Algorithm
 
 The Chudnovsky formula for π is:
-[
-\frac{1}{\pi} = 12 \sum_{k=0}^\infty \frac{(-1)^k (6k)! (13591409 + 545140134k)}{(3k)! (k!)^3 (640320)^{3k + 3/2}}
-]
+![\frac{1}{\pi} = 12 \sum_{k=0}^\infty \frac{(-1)^k (6k)! (13591409 + 545140134k)}{(3k)! (k!)^3 (640320)^{3k + 3/2}}](https://latex.codecogs.com/svg.latex?%5Cfrac%7B1%7D%7B%5Cpi%7D%20%3D%2012%20%5Csum_%7Bk%3D0%7D%5E%5Cinfty%20%5Cfrac%7B%28-1%29%5Ek%20%286k%29%21%20%2813591409%20%2B%20545140134k%29%7D%7B%283k%29%21%20%28k%21%29%5E3%20%28640320%29%5E%7B3k%20%2B%203%2F2%7D%7D)
 
 This implementation:
 
