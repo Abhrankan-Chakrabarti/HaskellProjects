@@ -1,40 +1,57 @@
-```
-==========================================
-        T O W E R S   O F   H A N O I
-==========================================
+# tower_of_hanoi
 
-A simple Haskell program to solve the classic Towers of Hanoi puzzle using recursion.
+A **recursive Tower of Hanoi solver** implemented in **Haskell**.
+This program demonstrates the classic recursive algorithm to move disks between three pegs following the rules of the puzzle.
 
-⚙️ Build & Run
-------------------------------------------
+## ⚙️ Build & Run
+
+Make sure **GHC** is installed.
+To build and execute:
+
+```bash
+cd tower_of_hanoi
 ghc -O2 tower_of_hanoi.hs -o tower_of_hanoi
 ./tower_of_hanoi <n>
-
-<n> : Number of disks to solve for (e.g., 3)
+```
 
 Example:
-------------------------------------------
+
+```bash
+cd tower_of_hanoi
+ghc -O2 tower_of_hanoi.hs -o tower_of_hanoi
 ./tower_of_hanoi 3
+```
 
 Output:
-A --> C
-A --> B
-C --> B
-A --> C
-B --> A
-B --> C
-A --> C
 
-🧩 How It Works
-------------------------------------------
-* Uses recursive strategy:
-    1. Move n-1 disks from source to auxiliary.
-    2. Move the largest disk from source to target.
-    3. Move n-1 disks from auxiliary to target.
-* 'move' function prints each move as: source --> target.
-* Accepts the number of disks as a command-line argument.
-
-🪪 Author
-------------------------------------------
-Abhrankan Chakrabarti
 ```
+'A' --> 'C'
+'A' --> 'B'
+'C' --> 'B'
+'A' --> 'C'
+'B' --> 'A'
+'B' --> 'C'
+'A' --> 'C'
+```
+
+Each line represents a single move from one peg to another.
+
+## 🧩 How It Works
+
+* Uses recursion to solve the Tower of Hanoi problem for `n` disks.
+* `move n s d t` recursively transfers disks from source peg `s` to destination peg `d` using temporary peg `t`.
+* The base case (`move 1 s d t`) performs a single move.
+* The function call pattern follows the recurrence relation:
+  [
+  T(n) = 2T(n-1) + 1
+  ]
+
+## 🧠 Notes
+
+* The total number of moves required is (2^n - 1).
+* Works well for small to medium `n`; output grows exponentially with larger values.
+* Pegs are labeled `'A'`, `'B'`, and `'C'`.
+
+## 🪪 Author
+
+**Abhrankan Chakrabarti**
