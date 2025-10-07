@@ -4,11 +4,12 @@ Computes the **golden ratio (ϕ)** to a specified number of decimal digits using
 
 ## 🛠 Build & Run
 
-Make sure you have **GHC** (Glasgow Haskell Compiler) and GMP installed.
+Make sure you have **GCC**, **GHC** (Glasgow Haskell Compiler), and GMP installed.
 
 ```bash
 cd golden_ratio
-ghc golden_ratio.hs -o golden_ratio
+gcc -c cbits/wrappers.c -o cbits/wrappers.o
+ghc golden_ratio.hs cbits/wrappers.o -o golden_ratio
 ./golden_ratio <digits>      # Linux/macOS
 .\golden_ratio.exe <digits>  # Windows
 ```

@@ -28,7 +28,8 @@ This implementation:
 Compile and run using:
 
 ```bash
-ghc -O2 pi.hs -o pi
+gcc -c cbits/wrappers.c -o cbits/wrappers.o
+ghc -O2 pi.hs cbits/wrappers.o -o pi
 ./pi 1000
 ```
 
@@ -36,6 +37,7 @@ This will output π to **1000 digits**.
 
 #### 📦 Dependencies
 
+* **GCC**
 * **GHC (Glasgow Haskell Compiler)**
 * **GMP (GNU Multiple Precision Arithmetic Library)**
 * **Numeric.GMP Haskell bindings**

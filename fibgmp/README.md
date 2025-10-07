@@ -4,11 +4,12 @@ Computes **Fibonacci numbers** using **GMP (GNU Multiple Precision Arithmetic Li
 
 ## 🛠 Build & Run
 
-Make sure you have **GHC** and **GMP** installed.
+Make sure you have **GCC**, **GHC**, and **GMP** installed.
 
 ```bash
 cd fibgmp
-ghc fibgmp.hs -o fibgmp
+gcc -c cbits/wrappers.c -o cbits/wrappers.o
+ghc fibgmp.hs cbits/wrappers.o -o fibgmp
 ./fibgmp          # Linux/macOS
 .\fibgmp.exe     # Windows
 ```

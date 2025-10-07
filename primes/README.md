@@ -6,12 +6,13 @@ This program finds and prints the next 10 prime numbers greater than a given int
 
 ## ⚙️ Build & Run
 
-Make sure **GHC** and **GMP** are installed.
+Make sure **GCC**, **GHC**, and **GMP** are installed.
 To build and execute:
 
 ```bash
 cd primes
-ghc -O2 primes.hs -o primes
+gcc -c cbits/wrappers.c -o cbits/wrappers.o
+ghc -O2 primes.hs cbits/wrappers.o -o primes
 ./primes <n>
 ```
 

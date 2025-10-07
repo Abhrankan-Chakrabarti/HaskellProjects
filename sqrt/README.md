@@ -6,12 +6,13 @@ This program computes the square root of a given number up to a specified number
 
 ## ⚙️ Build & Run
 
-Ensure that **GHC** and **GMP** are installed.
+Ensure that **GCC**, **GHC**, and **GMP** are installed.
 To build and execute:
 
 ```bash
 cd sqrt
-ghc -O2 sqrt.hs -o sqrt
+gcc -c cbits/wrappers.c -o cbits/wrappers.o
+ghc -O2 sqrt.hs cbits/wrappers.o -o sqrt
 ./sqrt <n> <digits>
 ```
 
@@ -19,7 +20,8 @@ Example:
 
 ```bash
 cd sqrt
-ghc -O2 sqrt.hs -o sqrt
+gcc -c cbits/wrappers.c -o cbits/wrappers.o
+ghc -O2 sqrt.hs cbits/wrappers.o -o sqrt
 ./sqrt 2 50
 ```
 

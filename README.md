@@ -16,9 +16,9 @@ Each project is self-contained with its own source file(s).
 * **[pi](pi)** — High-precision π calculation (GMP)
 * **[primes](primes)** — Prime number generator
 * **[sqrt](sqrt)** — High-precision square root calculation
-* **tower_of_hanoi** — Tower of Hanoi solver
 * **[tachyonic_benchmark](tachyonic_benchmark)** — Performance benchmarking
-* **tachyonic_void** — Experimental performance test
+* **[tachyonic_void](tachyonic_void)** — Experimental performance test
+* **[tower_of_hanoi](tower_of_hanoi)** — Tower of Hanoi solver
 
 ## 🛠 Build & Run
 
