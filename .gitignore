@@ -1,22 +1,37 @@
-# GHC compiled files
+# GHC compiled interface and object files
 *.hi
 *.o
 
-# Executables inside project directories
-ackermann/ackermann
-catalan/catalan
-exp/exp
-fib/fib
-fibgmp/fibgmp
-fibonacci/fibonacci
-golden_ratio/golden_ratio
-n_queen/n_queen
-pi/pi
-primes/primes
-sqrt/sqrt
-tachyonic_benchmark/tachyonic_benchmark
-tachyonic_void/tachyonic_void
-tower_of_hanoi/tower_of_hanoi
+# Ignore only executables inside subdirectories (not the folders themselves)
+*/ackermann
+*/ackermann.exe
+*/catalan
+*/catalan.exe
+*/exp
+*/exp.exe
+*/fib
+*/fib.exe
+*/fibgmp
+*/fibgmp.exe
+*/fibonacci
+*/fibonacci.exe
+*/golden_ratio
+*/golden_ratio.exe
+*/n_queen
+*/n_queen.exe
+*/pi
+*/pi.exe
+*/primes
+*/primes.exe
+*/sqrt
+*/sqrt.exe
+*/tachyonic_benchmark
+*/tachyonic_benchmark.exe
+*/tachyonic_void
+*/tachyonic_void.exe
+*/tower_of_hanoi
+*/tower_of_hanoi.exe
 
-# OS files
+# OS-specific files
 .DS_Store
+Thumbs.db
